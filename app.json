@@ -1,0 +1,89 @@
+{
+  "name": "سيلفا العربي",
+  "description": "⿻ سورس العربي افضل سورسات تيليثون ↬اوامر مامطروقه↬ معرب بالكامل ↬ اضافات جديده ↬ تحديثات متواصله ↬ اكتشفها بنفسك ↬────────────────────@SU_SELVA",
+  "logo": "https://telegra.ph/file/b03342dc56474dde49aa9.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/selva0st/selva",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "ادخل اسم حسابك التيلي هنا",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "اب ايدي",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ايبي هاش",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "كود التيرمكس - تروح ع حافظـة حسـابك التيلـي وتنسـخ الكـود الكبير",
+      "value": ""
+    },
+    "ENV": {
+      "description": "لتغير بيها شي",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغيـرها ابدا",
+      "value": ".",
+      "required": false
+    },
+    "TG_BOT_USERNAME": {
+      "description": "معرف البوت",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": " توكن البوت - يجب وضع البوت انلاين مود من اعدادات بوت فاذر",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "هيروكو ابي كي تنسخ الرابط وتفتح صفحه جديده وتروح ع آخر مربع وتلصقه هون تحت  https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق ( خلي نفس اسم اول مربع فـوق وبالانكلـش وحروف كلهـا صغيره مو كبيره)",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "منطقتك - عوفها ",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رمز السورس - لتلعب ",
+      "value": "https://github.com/selva0st/selva",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
