@@ -45,7 +45,7 @@ _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/SelVa12345/Assistant"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/selva0st/Assistant"
 ACTIVE_BRANCH_NAME = "master"
 
 repo = Repo.init()
@@ -85,7 +85,7 @@ _set_bot () {
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "    ‎𖠄 جاري بدء بوت دراكون‎ ‎𖠄  "
+    echo "    ‎𖠄 جاري بدء بوت سيلفا‎ ‎𖠄  "
     echo "
 
    ____  ____      _    ____  ___  _   _ 
